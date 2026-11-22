@@ -2,6 +2,8 @@
 
 [evanzhang.cloud](https://evanzhang.cloud) 的源码。这是一个单页静态 HTML，作为 Evan 的个人主页。
 
+同目录还有 EZ logo 与分享图：`favicon.svg`、`favicon.ico`、`apple-touch-icon.png`、`icon-512.png`、`og.png`。
+
 页面部署在腾讯云服务器的 nginx 网站根目录，前面由 Cloudflare 代理。
 
 ## 如何更新

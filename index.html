@@ -4,8 +4,27 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
-<link rel="icon" href="data:," />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="theme-color" content="#101828" />
 <title>Evan — Go Backend Engineer</title>
+<meta name="description" content="Evan Zhang · 资深 Go 后端工程师 — 构建扛得住量的后端系统。" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="evanzhang.cloud" />
+<meta property="og:title" content="Evan Zhang — Go Backend Engineer" />
+<meta property="og:description" content="Evan，构建扛得住量的后端系统。Builds backend systems that stay fast under load." />
+<meta property="og:url" content="https://evanzhang.cloud/" />
+<meta property="og:image" content="https://evanzhang.cloud/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Evan Zhang — Go Backend Engineer · evanzhang.cloud" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@evanzhang_go" />
+<meta name="twitter:creator" content="@evanzhang_go" />
+<meta name="twitter:title" content="Evan Zhang — Go Backend Engineer" />
+<meta name="twitter:description" content="Evan，构建扛得住量的后端系统。Builds backend systems that stay fast under load." />
+<meta name="twitter:image" content="https://evanzhang.cloud/og.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -44,6 +63,7 @@
   .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
   .brand:hover{text-decoration:none}
   .brand-mark{width:32px;height:32px;border-radius:8px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:700}
+  .brand-mark svg{width:100%;height:100%;display:block}
   .brand small{font-weight:500;color:var(--muted);font-size:12px;display:block;line-height:1;margin-top:1px}
   .links{display:flex;align-items:center;gap:4px;flex-wrap:wrap;justify-content:flex-end}
   .links a{color:var(--ink-2);font-size:13.5px;font-weight:500;padding:7px 9px;border-radius:999px}
@@ -180,7 +200,7 @@
 
 <header>
   <div class="wrap nav">
-    <a class="brand" href="#top"><span class="brand-mark">E.</span><span>Evan<small data-en="Go Backend Engineer" data-zh="Go 后端工程师">Go 后端工程师</small></span></a>
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path fill="currentColor" d="M12 14h17v6H18v9h8v6h-8v9h16v6H12z"/><path fill="var(--accent-2)" d="M34 14h18v6l-11 24h11v6H34v-6l11-24H34z"/></svg></span><span>Evan<small data-en="Go Backend Engineer" data-zh="Go 后端工程师">Go 后端工程师</small></span></a>
     <nav class="links" aria-label="Primary">
       <a href="#live" data-en="My projects" data-zh="我的项目">我的项目</a>
       <a href="#about" data-en="About" data-zh="关于">关于</a>
